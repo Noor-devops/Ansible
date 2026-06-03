@@ -6,6 +6,6 @@
     debug:
       msg: "Hi {{ item }}" # item is reserved special variable
     loop:
-    - Ramesh
-    - Raheem
-    - John
+    - Noor
+    - Afrin
+    - Tapsee

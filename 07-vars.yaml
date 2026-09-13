@@ -1,16 +1,32 @@
-- name: demo on prompt
+# - name: demo on prompt
+#   hosts: local
+#   connection: local
+#   vars_prompt: 
+#     - name: username
+#       prompt: "Please enter username"
+#       private: false
+
+#     - name: password
+#       prompt: "Please enter password"
+#       private: true
+
+#   tasks:
+#   - name: print information
+#     debug:
+#       msg: "Username is: {{ username }}, password is: {{ password }}"
+
+- name: demo on prompt level noor
   hosts: local
   connection: local
-  vars_prompt: 
-    - name: username
-      prompt: "Please enter username"
+  vars_prompt:
+    - name: lovername
+      prompt: "enter your lover name"
       private: false
 
-    - name: password
-      prompt: "Please enter password"
+    - name: keepname
+      prompt: "enter your keep name"
       private: true
-
   tasks:
-  - name: print information
+  - name: print shahistha thaslim
     debug:
-      msg: "Username is: {{ username }}, password is: {{ password }}"
+      msg: "Hi iam {{ lovername }} and my keepname  is {{ keepname }}"

@@ -7,9 +7,9 @@
 #       msg: "Hi, I am learning {{ COURSE }}, Trainer is {{ TRAINER }}, Duration is {{ DURATION }}, common_key: {{ common_key }}"
 
 - name: inventory variables
-  hosts: local
-  connection: local
+  hosts: frontend
+  #connection: local
   tasks:
   - name: information
     debug:
-      msg: "Hi, I am learning {{ COURSE }}, Trainer is {{ TRAINER }}, Duration is {{ DURATION }}, common_key: {{ common_key }}"
+      msg: "Hi, my lover name is {{ lover }} and my keep name is {{ keep}}"

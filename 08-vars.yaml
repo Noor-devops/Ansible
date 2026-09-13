@@ -12,4 +12,4 @@
   tasks:
   - name: information
     debug:
-      msg: "Hi, my lover name is {{ lover }} and my keep name is {{ keep}}"
+      msg: "Hi, my lover name is {{ lover }} and my keep name is {{ keep }}"

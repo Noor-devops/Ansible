@@ -1,10 +1,10 @@
 - name: prioity on variables
   hosts: local
   connection: local
-  # vars:
-  #   full_name: "Noor for play level"
-  vars_files:
-    - course.yaml
+  vars:
+    full_name: "Noor for play level"
+  # vars_files:
+  #   - course.yaml
   vars_prompt:
     - name: full_name
       prompt: "please enter your full_name"

@@ -20,4 +20,4 @@
   - name: is ansible more than 5 sessions
     debug:
       msg: "yes, ansible tooks more than 5 sessions"
-    when: {{ live_sessions }} > 5
+    when: live_sessions | int > 5

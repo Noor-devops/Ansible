@@ -1,6 +1,13 @@
-- name: print gather facts
+# - name: print gather facts
+#   hosts: frontend
+#   tasks:
+#   - name: print gathered facts
+#     debug:
+#       msg: "{{ ansible_facts }}"
+
+- name: printing gather facts
   hosts: frontend
   tasks:
-  - name: print gathered facts
+  - name: printing gather facts
     debug:
       msg: "{{ ansible_facts }}"

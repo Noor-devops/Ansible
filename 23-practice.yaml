@@ -3,7 +3,7 @@
   connection: local
   vars:
     full_name: "Noor for play level"
-  # tasks:
+  tasks:
   # - name: preference
   #   vars:
   #     full_name: "Noor for task level"

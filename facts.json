@@ -1,9 +1,9 @@
 {
         "all_ipv4_addresses": [
-            "172.31.19.72"
+            "172.31.21.197"
         ],
         "all_ipv6_addresses": [
-            "fe80::8ff:c0ff:fe65:ddab"
+            "fe80::8ff:f0ff:fecf:5e83"
         ],
         "ansible_local": {},
         "apparmor": {
@@ -13,7 +13,7 @@
         "bios_date": "10/16/2017",
         "bios_vendor": "Amazon EC2",
         "bios_version": "1.0",
-        "board_asset_tag": "i-0b6266f313a2783cd",
+        "board_asset_tag": "i-07801eb1f935f209a",
         "board_name": "NA",
         "board_serial": "NA",
         "board_vendor": "Amazon EC2",
@@ -31,34 +31,34 @@
             "root": "/dev/mapper/RootVG-rootVol"
         },
         "date_time": {
-            "date": "2026-06-02",
-            "day": "02",
-            "epoch": "1780367937",
-            "epoch_int": "1780367937",
-            "hour": "02",
-            "iso8601": "2026-06-02T02:38:57Z",
-            "iso8601_basic": "20260602T023857051564",
-            "iso8601_basic_short": "20260602T023857",
-            "iso8601_micro": "2026-06-02T02:38:57.051564Z",
-            "minute": "38",
-            "month": "06",
-            "second": "57",
-            "time": "02:38:57",
+            "date": "2026-09-14",
+            "day": "14",
+            "epoch": "1789359956",
+            "epoch_int": "1789359956",
+            "hour": "04",
+            "iso8601": "2026-09-14T04:25:56Z",
+            "iso8601_basic": "20260914T042556150612",
+            "iso8601_basic_short": "20260914T042556",
+            "iso8601_micro": "2026-09-14T04:25:56.150612Z",
+            "minute": "25",
+            "month": "09",
+            "second": "56",
+            "time": "04:25:56",
             "tz": "UTC",
             "tz_dst": "UTC",
             "tz_offset": "+0000",
-            "weekday": "Tuesday",
-            "weekday_number": "2",
-            "weeknumber": "22",
+            "weekday": "Monday",
+            "weekday_number": "1",
+            "weeknumber": "37",
             "year": "2026"
         },
         "default_ipv4": {
-            "address": "172.31.19.72",
+            "address": "172.31.21.197",
             "alias": "ens5",
             "broadcast": "172.31.31.255",
             "gateway": "172.31.16.1",
             "interface": "ens5",
-            "macaddress": "0a:ff:c0:65:dd:ab",
+            "macaddress": "0a:ff:f0:cf:5e:83",
             "mtu": 9001,
             "netmask": "255.255.240.0",
             "network": "172.31.16.0",
@@ -97,30 +97,30 @@
                     "dm-uuid-LVM-Z6QgcgIhlttJ2W2P4WDEGMjoYvUaYdki0weHpbXyMqrhefMp10dyauB2sJsubpGi"
                 ],
                 "nvme0n1": [
-                    "nvme-Amazon_Elastic_Block_Store_vol01eb93a21897dedfc",
-                    "nvme-Amazon_Elastic_Block_Store_vol01eb93a21897dedfc_1",
-                    "nvme-nvme.1d0f-766f6c3031656239336132313839376465646663-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001"
+                    "nvme-Amazon_Elastic_Block_Store_vol0e6d3270a20da08cb",
+                    "nvme-Amazon_Elastic_Block_Store_vol0e6d3270a20da08cb_1",
+                    "nvme-nvme.1d0f-766f6c3065366433323730613230646130386362-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001"
                 ],
                 "nvme0n1p1": [
-                    "nvme-Amazon_Elastic_Block_Store_vol01eb93a21897dedfc-part1",
-                    "nvme-Amazon_Elastic_Block_Store_vol01eb93a21897dedfc_1-part1",
-                    "nvme-nvme.1d0f-766f6c3031656239336132313839376465646663-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part1"
+                    "nvme-Amazon_Elastic_Block_Store_vol0e6d3270a20da08cb-part1",
+                    "nvme-Amazon_Elastic_Block_Store_vol0e6d3270a20da08cb_1-part1",
+                    "nvme-nvme.1d0f-766f6c3065366433323730613230646130386362-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part1"
                 ],
                 "nvme0n1p2": [
-                    "nvme-Amazon_Elastic_Block_Store_vol01eb93a21897dedfc-part2",
-                    "nvme-Amazon_Elastic_Block_Store_vol01eb93a21897dedfc_1-part2",
-                    "nvme-nvme.1d0f-766f6c3031656239336132313839376465646663-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part2"
+                    "nvme-Amazon_Elastic_Block_Store_vol0e6d3270a20da08cb-part2",
+                    "nvme-Amazon_Elastic_Block_Store_vol0e6d3270a20da08cb_1-part2",
+                    "nvme-nvme.1d0f-766f6c3065366433323730613230646130386362-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part2"
                 ],
                 "nvme0n1p3": [
-                    "nvme-Amazon_Elastic_Block_Store_vol01eb93a21897dedfc-part3",
-                    "nvme-Amazon_Elastic_Block_Store_vol01eb93a21897dedfc_1-part3",
-                    "nvme-nvme.1d0f-766f6c3031656239336132313839376465646663-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part3"
+                    "nvme-Amazon_Elastic_Block_Store_vol0e6d3270a20da08cb-part3",
+                    "nvme-Amazon_Elastic_Block_Store_vol0e6d3270a20da08cb_1-part3",
+                    "nvme-nvme.1d0f-766f6c3065366433323730613230646130386362-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part3"
                 ],
                 "nvme0n1p4": [
                     "lvm-pv-uuid-tNfe0B-Ik1H-g1jY-1XdL-QhNz-wwuu-TjkCgN",
-                    "nvme-Amazon_Elastic_Block_Store_vol01eb93a21897dedfc-part4",
-                    "nvme-Amazon_Elastic_Block_Store_vol01eb93a21897dedfc_1-part4",
-                    "nvme-nvme.1d0f-766f6c3031656239336132313839376465646663-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part4"
+                    "nvme-Amazon_Elastic_Block_Store_vol0e6d3270a20da08cb-part4",
+                    "nvme-Amazon_Elastic_Block_Store_vol0e6d3270a20da08cb_1-part4",
+                    "nvme-nvme.1d0f-766f6c3065366433323730613230646130386362-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part4"
                 ]
             },
             "labels": {
@@ -374,9 +374,9 @@
                 "host": "Non-Volatile memory controller: Amazon.com, Inc. NVMe EBS Controller",
                 "links": {
                     "ids": [
-                        "nvme-Amazon_Elastic_Block_Store_vol01eb93a21897dedfc",
-                        "nvme-Amazon_Elastic_Block_Store_vol01eb93a21897dedfc_1",
-                        "nvme-nvme.1d0f-766f6c3031656239336132313839376465646663-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001"
+                        "nvme-Amazon_Elastic_Block_Store_vol0e6d3270a20da08cb",
+                        "nvme-Amazon_Elastic_Block_Store_vol0e6d3270a20da08cb_1",
+                        "nvme-nvme.1d0f-766f6c3065366433323730613230646130386362-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001"
                     ],
                     "labels": [],
                     "masters": [],
@@ -388,9 +388,9 @@
                         "holders": [],
                         "links": {
                             "ids": [
-                                "nvme-Amazon_Elastic_Block_Store_vol01eb93a21897dedfc-part1",
-                                "nvme-Amazon_Elastic_Block_Store_vol01eb93a21897dedfc_1-part1",
-                                "nvme-nvme.1d0f-766f6c3031656239336132313839376465646663-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part1"
+                                "nvme-Amazon_Elastic_Block_Store_vol0e6d3270a20da08cb-part1",
+                                "nvme-Amazon_Elastic_Block_Store_vol0e6d3270a20da08cb_1-part1",
+                                "nvme-nvme.1d0f-766f6c3065366433323730613230646130386362-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part1"
                             ],
                             "labels": [],
                             "masters": [],
@@ -406,9 +406,9 @@
                         "holders": [],
                         "links": {
                             "ids": [
-                                "nvme-Amazon_Elastic_Block_Store_vol01eb93a21897dedfc-part2",
-                                "nvme-Amazon_Elastic_Block_Store_vol01eb93a21897dedfc_1-part2",
-                                "nvme-nvme.1d0f-766f6c3031656239336132313839376465646663-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part2"
+                                "nvme-Amazon_Elastic_Block_Store_vol0e6d3270a20da08cb-part2",
+                                "nvme-Amazon_Elastic_Block_Store_vol0e6d3270a20da08cb_1-part2",
+                                "nvme-nvme.1d0f-766f6c3065366433323730613230646130386362-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part2"
                             ],
                             "labels": [
                                 "UEFI_DISK"
@@ -428,9 +428,9 @@
                         "holders": [],
                         "links": {
                             "ids": [
-                                "nvme-Amazon_Elastic_Block_Store_vol01eb93a21897dedfc-part3",
-                                "nvme-Amazon_Elastic_Block_Store_vol01eb93a21897dedfc_1-part3",
-                                "nvme-nvme.1d0f-766f6c3031656239336132313839376465646663-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part3"
+                                "nvme-Amazon_Elastic_Block_Store_vol0e6d3270a20da08cb-part3",
+                                "nvme-Amazon_Elastic_Block_Store_vol0e6d3270a20da08cb_1-part3",
+                                "nvme-nvme.1d0f-766f6c3065366433323730613230646130386362-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part3"
                             ],
                             "labels": [
                                 "boot_disk"
@@ -459,9 +459,9 @@
                         "links": {
                             "ids": [
                                 "lvm-pv-uuid-tNfe0B-Ik1H-g1jY-1XdL-QhNz-wwuu-TjkCgN",
-                                "nvme-Amazon_Elastic_Block_Store_vol01eb93a21897dedfc-part4",
-                                "nvme-Amazon_Elastic_Block_Store_vol01eb93a21897dedfc_1-part4",
-                                "nvme-nvme.1d0f-766f6c3031656239336132313839376465646663-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part4"
+                                "nvme-Amazon_Elastic_Block_Store_vol0e6d3270a20da08cb-part4",
+                                "nvme-Amazon_Elastic_Block_Store_vol0e6d3270a20da08cb_1-part4",
+                                "nvme-nvme.1d0f-766f6c3065366433323730613230646130386362-416d617a6f6e20456c617374696320426c6f636b2053746f7265-00000001-part4"
                             ],
                             "labels": [],
                             "masters": [
@@ -584,7 +584,7 @@
             },
             "hw_timestamp_filters": [],
             "ipv4": {
-                "address": "172.31.19.72",
+                "address": "172.31.21.197",
                 "broadcast": "172.31.31.255",
                 "netmask": "255.255.240.0",
                 "network": "172.31.16.0",
@@ -592,12 +592,12 @@
             },
             "ipv6": [
                 {
-                    "address": "fe80::8ff:c0ff:fe65:ddab",
+                    "address": "fe80::8ff:f0ff:fecf:5e83",
                     "prefix": "64",
                     "scope": "link"
                 }
             ],
-            "macaddress": "0a:ff:c0:65:dd:ab",
+            "macaddress": "0a:ff:f0:cf:5e:83",
             "module": "ena",
             "mtu": 9001,
             "pciid": "0000:00:05.0",
@@ -628,15 +628,15 @@
             "REQUESTS_CA_BUNDLE": "/etc/pki/tls/certs/ca-bundle.crt",
             "SHELL": "/bin/bash",
             "SHLVL": "1",
-            "SSH_CLIENT": "172.31.21.148 53034 22",
-            "SSH_CONNECTION": "172.31.21.148 53034 172.31.19.72 22",
+            "SSH_CLIENT": "172.31.19.65 39572 22",
+            "SSH_CONNECTION": "172.31.19.65 39572 172.31.21.197 22",
             "SSH_TTY": "/dev/pts/0",
             "SYSTEMD_PAGER": "cat",
             "TERM": "xterm",
             "USER": "ec2-user",
             "XDG_RUNTIME_DIR": "/run/user/1001",
             "XDG_SESSION_CLASS": "user",
-            "XDG_SESSION_ID": "16",
+            "XDG_SESSION_ID": "9",
             "XDG_SESSION_TYPE": "tty",
             "_": "/usr/bin/python3",
             "which_declare": "declare -f"
@@ -644,11 +644,11 @@
         "fibre_channel_wwn": [],
         "fips": true,
         "form_factor": "Other",
-        "fqdn": "ip-172-31-19-72.ec2.internal",
+        "fqdn": "ip-172-31-21-197.ec2.internal",
         "gather_subset": [
             "all"
         ],
-        "hostname": "ip-172-31-19-72",
+        "hostname": "ip-172-31-21-197",
         "hostnqn": "",
         "interfaces": [
             "lo",
@@ -746,72 +746,56 @@
             "type": "loopback"
         },
         "loadavg": {
-            "15m": 0.07,
-            "1m": 0.54,
-            "5m": 0.22
+            "15m": 0.08,
+            "1m": 0.2,
+            "5m": 0.16
         },
         "lsb": {},
         "lvm": "N/A",
         "machine": "x86_64",
         "machine_id": "6fd191fd77134c718be4bf9a7362db6a",
-        "memfree_mb": 226,
+        "memfree_mb": 193,
         "memory_mb": {
             "nocache": {
-                "free": 515,
-                "used": 201
+                "free": 529,
+                "used": 187
             },
             "real": {
-                "free": 226,
+                "free": 193,
                 "total": 716,
-                "used": 490
+                "used": 523
             },
             "swap": {
                 "cached": 6,
-                "free": 2024,
+                "free": 2022,
                 "total": 2047,
-                "used": 23
+                "used": 25
             }
         },
         "memtotal_mb": 716,
         "module_setup": true,
         "mounts": [
             {
-                "block_available": 970616,
+                "block_available": 971093,
                 "block_size": 4096,
                 "block_total": 1556480,
-                "block_used": 585864,
+                "block_used": 585387,
                 "device": "/dev/mapper/RootVG-rootVol",
                 "fstype": "xfs",
-                "inode_available": 3083634,
+                "inode_available": 3083695,
                 "inode_total": 3145728,
-                "inode_used": 62094,
+                "inode_used": 62033,
                 "mount": "/",
                 "options": "rw,relatime,attr2,inode64,logbufs=8,logbsize=32k,sunit=8,swidth=8,noquota",
-                "size_available": 3975643136,
+                "size_available": 3977596928,
                 "size_total": 6375342080,
                 "uuid": "1290fb9a-d62d-48f0-b048-5a59aa4703fc"
             },
             {
-                "block_available": 349526,
-                "block_size": 4096,
-                "block_total": 507904,
-                "block_used": 158378,
-                "device": "/dev/mapper/RootVG-varVol",
-                "fstype": "xfs",
-                "inode_available": 1046383,
-                "inode_total": 1048576,
-                "inode_used": 2193,
-                "mount": "/var",
-                "options": "rw,relatime,attr2,inode64,logbufs=8,logbsize=32k,sunit=8,swidth=8,noquota",
-                "size_available": 1431658496,
-                "size_total": 2080374784,
-                "uuid": "f3182c67-5bb3-43aa-ad8a-5e6722a0853b"
-            },
-            {
-                "block_available": 235611,
+                "block_available": 235619,
                 "block_size": 4096,
                 "block_total": 245760,
-                "block_used": 10149,
+                "block_used": 10141,
                 "device": "/dev/mapper/RootVG-homeVol",
                 "fstype": "xfs",
                 "inode_available": 524268,
@@ -819,25 +803,25 @@
                 "inode_used": 20,
                 "mount": "/home",
                 "options": "rw,relatime,attr2,inode64,logbufs=8,logbsize=32k,sunit=8,swidth=8,noquota",
-                "size_available": 965062656,
+                "size_available": 965095424,
                 "size_total": 1006632960,
                 "uuid": "a6bea37c-c37d-4aaf-a23e-4e8e43ac4be1"
             },
             {
-                "block_available": 484058,
+                "block_available": 334981,
                 "block_size": 4096,
                 "block_total": 507904,
-                "block_used": 23846,
-                "device": "/dev/mapper/RootVG-logVol",
+                "block_used": 172923,
+                "device": "/dev/mapper/RootVG-varVol",
                 "fstype": "xfs",
-                "inode_available": 1048520,
+                "inode_available": 1046489,
                 "inode_total": 1048576,
-                "inode_used": 56,
-                "mount": "/var/log",
+                "inode_used": 2087,
+                "mount": "/var",
                 "options": "rw,relatime,attr2,inode64,logbufs=8,logbsize=32k,sunit=8,swidth=8,noquota",
-                "size_available": 1982701568,
+                "size_available": 1372082176,
                 "size_total": 2080374784,
-                "uuid": "17dab4e1-467c-4689-8fb1-65849699245f"
+                "uuid": "f3182c67-5bb3-43aa-ad8a-5e6722a0853b"
             },
             {
                 "block_available": 495978,
@@ -846,9 +830,9 @@
                 "block_used": 11926,
                 "device": "/dev/mapper/RootVG-varTmpVol",
                 "fstype": "xfs",
-                "inode_available": 1048563,
+                "inode_available": 1048565,
                 "inode_total": 1048576,
-                "inode_used": 13,
+                "inode_used": 11,
                 "mount": "/var/tmp",
                 "options": "rw,relatime,attr2,inode64,logbufs=8,logbsize=32k,sunit=8,swidth=8,noquota",
                 "size_available": 2031525888,
@@ -872,6 +856,22 @@
                 "uuid": "230e0624-8e35-4e9d-9dd8-01cd4f7dad3a"
             },
             {
+                "block_available": 484426,
+                "block_size": 4096,
+                "block_total": 507904,
+                "block_used": 23478,
+                "device": "/dev/mapper/RootVG-logVol",
+                "fstype": "xfs",
+                "inode_available": 1048523,
+                "inode_total": 1048576,
+                "inode_used": 53,
+                "mount": "/var/log",
+                "options": "rw,relatime,attr2,inode64,logbufs=8,logbsize=32k,sunit=8,swidth=8,noquota",
+                "size_available": 1984208896,
+                "size_total": 2080374784,
+                "uuid": "17dab4e1-467c-4689-8fb1-65849699245f"
+            },
+            {
                 "block_available": 58556,
                 "block_size": 2048,
                 "block_total": 62333,
@@ -888,10 +888,10 @@
                 "uuid": "26D2-298A"
             },
             {
-                "block_available": 1120177,
+                "block_available": 1120273,
                 "block_size": 4096,
                 "block_total": 1136640,
-                "block_used": 16463,
+                "block_used": 16367,
                 "device": "/dev/mapper/RootVG-auditVol",
                 "fstype": "xfs",
                 "inode_available": 2306044,
@@ -899,12 +899,12 @@
                 "inode_used": 4,
                 "mount": "/var/log/audit",
                 "options": "rw,relatime,attr2,inode64,logbufs=8,logbsize=32k,sunit=8,swidth=8,noquota",
-                "size_available": 4588244992,
+                "size_available": 4588638208,
                 "size_total": 4655677440,
                 "uuid": "1552b811-d96d-49ad-b1c4-9ba4566e008a"
             }
         ],
-        "nodename": "ip-172-31-19-72.ec2.internal",
+        "nodename": "ip-172-31-21-197.ec2.internal",
         "os_family": "RedHat",
         "pkg_mgr": "dnf",
         "proc_cmdline": {
@@ -959,11 +959,11 @@
         },
         "selinux_python_present": true,
         "service_mgr": "systemd",
-        "ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBKvyrdfNLJuUsXmf7lLF8+O0RSrFR+PRAWTlfOV/A26CH2nZhRWZ5IJmeeqp9WGtIbN8nWp1UcnZSpmPatn+nHc=",
+        "ssh_host_key_ecdsa_public": "AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBC3uoqUvj58F3oqlgwTWqc8zO2nwgCkKvnxLF35U4JtbxtqkruNx8CAwL7GWgQyyooFLHvm2zkpFSJRYYCA2uVU=",
         "ssh_host_key_ecdsa_public_keytype": "ecdsa-sha2-nistp256",
-        "ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABgQDOVCdzXuKJwlbrNzHfbYTBHJEjQKt/9dpx2TM3MWI65cW+k1NCUpNbB/AxnyjhawHiD8Jb6MGebVE3rcM7w6rqE6DIDSSOhGOR3eMANzqLOZAJqPVmUr6zZnjJA/++Qs/BWqsVzDNtki1Yu1NgYcqV9T/YSVIlfMkDZHVKMtWLWpUmRCXFSdOvVlmN1RERCwGDEVlW4sfYMRHvFOv/G1H5whpZuecPd72sMNWhyAYKuSdCwcWqrUcADcYa/YkWNXvOXSY8/RRmDkXhQh3QzCNYSei/Vo0IYSavZHoB0069tJs9pKfea5TisIBkf+9+epZf/5N2ttSD5LNKh646+28LtnNPGrKtM2QwzJo/3tDx2MyvBAGcZ8gj1kkoqanhNt4xgOMiGJnXP6U6WSEGACEvihPac/2N2mz5H1nEHgMILi1t85sGV1T9I6M081IkIzy8HP/GGzn2h+ZHcpkSEWD0QX96ko+arW77TCHH3EhhmwHBg5Izxturcw7j/JHvmT8=",
+        "ssh_host_key_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABgQDPhSogW4BAZdL/PX2erE4U20PvT6kxW4dOJwS5Hcu95MYldBU3f6mUVTp7EDzYCNLx6XBCYR+pG3TQdUtfUe7fV4az6Nr7L5LHmrVsgxb7c+YDlCridj4zZPxw/OUW9dXQwbqt28fgVC/3n3ZcjaWXhscK76C7ernk7PimedrzIw2f+PZeRsi1eGxzV3M+1n+36KtvbtMzYdEk5ZKYBFWXtnHncCzmFT0xlYHLDLY61rITT2hN5Su/BsevcfoL/HvsKu8xgQtcim3VOqfgtdxLOeajVeLOpXTFnoF3lge9U+Q4yAOikRmskKomFHlm+d1terFtrODE4Zv3SxFJ+6CmqnS6U3bw26IKE54sL/1nzbDOjFJ0MKaQ/5a3KgQRtNp0bbe5+/nD7aU8TAEL0mzc1Gcr98Xlo+HLtfwX2787AURpVZKrys/AO2MlM87fdJcjIXyeI35y80WWivIZbLqLJZSosv8Y4iLHeUatH/YnPjZcYSW54iFqD9Pr9UV4YgU=",
         "ssh_host_key_rsa_public_keytype": "ssh-rsa",
-        "swapfree_mb": 2024,
+        "swapfree_mb": 2022,
         "swaptotal_mb": 2047,
         "system": "Linux",
         "system_capabilities": [
@@ -971,7 +971,7 @@
         ],
         "system_capabilities_enforced": "True",
         "system_vendor": "Amazon EC2",
-        "uptime_seconds": 2562,
+        "uptime_seconds": 2280,
         "user_dir": "/home/ec2-user",
         "user_gecos": "",
         "user_gid": 1001,

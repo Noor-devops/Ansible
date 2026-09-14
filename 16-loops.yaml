@@ -17,4 +17,4 @@
   - name: print 1 to 100
     debug:
       msg: "printing numbers {{ item }}"
-    loop: range(1,101) | list
+    loop: "{{ range(1,101) | list }}"

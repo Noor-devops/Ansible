@@ -19,5 +19,5 @@
   tasks:
   - name: is ansible more than 5 sessions
     debug:
-      msg: "yes, ansible tooks more than {{ live_sessions }} sessions"
-    # when: live_sessions > 5
+      msg: "yes, ansible tooks more than 5 sessions"
+    when: {{ live_sessions }} > 5

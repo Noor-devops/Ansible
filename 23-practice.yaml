@@ -1,8 +1,8 @@
 - name: prioity on variables
   hosts: local
   connection: local
-  vars:
-    full_name: "Noor for play level"
+  # vars:
+  #   full_name: "Noor for play level"
   # vars_files:
   #   - course.yaml
   # vars_prompt:

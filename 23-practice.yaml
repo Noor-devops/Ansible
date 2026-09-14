@@ -4,8 +4,8 @@
   vars:
     full_name: "Noor for play level"
   tasks:
-  # - name: preference
-  #   vars:
-  #     full_name: "Noor for task level"
+  - name: preference
+    # vars:
+    #   full_name: "Noor for task level"
     debug:
       msg: "Hi, my full name is {{ full_name }}"

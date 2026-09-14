@@ -22,12 +22,12 @@
     prompt: "Please enter the number: "
     private: false
   tasks:
-  - name: printing even or odd from promt
+  - name: is even
     debug:
       msg: "given number is {{ number }} even"
     when: number % 2 == 0
     
-    name: printing even or odd from promt
+  - name: is odd
     debug:
       msg: "given number is {{ number }} even"
     when: number % 2 != 0

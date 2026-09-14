@@ -29,6 +29,6 @@
     
   - name: is odd
     debug:
-      msg: "given number is {{ number }} even"
+      msg: "given number is {{ number }} odd"
     when: (number | int) % 2 != 0
     

@@ -1,15 +1,34 @@
-- name: even or odd
+# - name: even or odd
+#   hosts: local
+#   connection: local
+#   vars:
+#     given_number: 8
+#   tasks:
+#   - when: given_number % 2 == 0
+#     debug:
+#       msg: "give number: {{ given_number }} is even"
+#     name: is even
+    
+#   - name: is odd
+#     debug:
+#       msg: "give number: {{ given_number }} is odd"
+#     when: given_number % 2 != 0
+
+- name: checking even or odd
   hosts: local
   connection: local
-  vars:
-    given_number: 8
+  vars_prompt:
+    name: number
+    prompt: "Please enter the number: "
+    private: false
   tasks:
-  - when: given_number % 2 == 0
+  - name: printing even or odd from promt
     debug:
-      msg: "give number: {{ given_number }} is even"
-    name: is even
+      msg: "given number is {{ number }} even"
+    when: number % 2 == 0
     
-  - name: is odd
+    name: printing even or odd from promt
     debug:
-      msg: "give number: {{ given_number }} is odd"
-    when: given_number % 2 != 0
+      msg: "given number is {{ number }} even"
+    when: number % 2 != 0
+    

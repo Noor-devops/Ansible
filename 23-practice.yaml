@@ -3,9 +3,15 @@
   connection: local
   vars:
     full_name: "Noor for play level"
+  vars_files:
+    - course.yaml
+  vars_prompt:
+    - name: full_name
+      prompt: "please enter your full_name"
+      private: false
   tasks:
   - name: preference
-    # vars:
-    #   full_name: "Noor for task level"
+    vars:
+      full_name: "Noor for task level"
     debug:
       msg: "Hi, my full name is {{ full_name }}"

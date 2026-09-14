@@ -10,11 +10,27 @@
 #     - Afrin
 #     - Tapsee
 
-- name: demo on loops
-  hosts: local
-  connection: local
+# - name: demo on loops
+#   hosts: local
+#   connection: local
+#   tasks:
+#   - name: print 1 to 100
+#     debug:
+#       msg: "printing numbers {{ item }}"
+#     loop: "{{ range(1,101) | list }}"
+
+---
+- name: Filtered Loop Example
+  hosts: localhost
+  gather_facts: no
+
   tasks:
-  - name: print 1 to 100
-    debug:
-      msg: "printing numbers {{ item }}"
-    loop: "{{ range(1,101) | list }}"
+    - name: Print even numbers greater than 50
+      ansible.builtin.debug:
+        msg: "Found valid number: {{ item }}"
+      loop: "{{ range(1, 101) | list }}"
+      # item is already an integer from the range function, so no need for '| int'
+      when: 
+        - item > 50
+        - item % 2 == 0
+
